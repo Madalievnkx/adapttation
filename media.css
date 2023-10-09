@@ -1,0 +1,53 @@
+/* laptop-noutbuk*/
+@media (max-width: 1200px) {
+}
+
+/*Мини Ноутбук*/
+@media (max-width: 992px) {
+  body {
+    background: green;
+  }
+}
+
+/*planshet*/
+@media (max-width: 768px) {
+}
+
+/*Telefon*/
+@media (max-width: 480px) {
+  .header-right {
+    display: none;
+  }
+
+  .header-link {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foto{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*malenke dibaisy*/
+@media (max-width: 320px) {
+
+}
